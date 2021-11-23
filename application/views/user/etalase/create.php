@@ -7,18 +7,7 @@
 					<div class="card-header">
 						<div class="mr-auto pr-3">
 							<h4 class="text-black font-w700 fs-20">Tambah Etalase </h4><br>
-							<form class="d-flex">
-								<input class="form-control " height="10px" type="search" placeholder="Search" aria-label="Search">
-							</form>
 						</div>
-
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/add.png" data-bs-toggle="modal" data-bs-target="#modalForm" alt="">
-						&nbsp; &nbsp;
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/pencil.png" data-bs-toggle="modal" data-bs-target="#modalForm2" alt="">
-						&nbsp; &nbsp;
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/trash.png" alt="">
-
-						&nbsp;
 
 					</div>
 				</div>
@@ -52,7 +41,7 @@
 								</div>
 
 								<div class="modal-footer d-block">
-								<button type="submit" class="btn btn-warning float-start">Batal</button>
+								<a href="<?=base_url();?>/etalase/index" class="btn btn-warning float-start">Batal</a>
 								<button type="submit" value="upload" class="btn btn-warning float-end">Simpan Data</button>
 							</div>
 						</form>

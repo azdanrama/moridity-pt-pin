@@ -29,7 +29,7 @@
 
 			</li>
 
-			<li><a class="" href="<?= base_url(); ?>Admin_moridata" aria-expanded="false">
+			<li><a class="" href="<?= base_url(); ?>Moridata_admin" aria-expanded="false">
 					<i class="">
 						<img alt="image" width="30" src="<?= base_url('assets'); ?>/images/admin/moridata.png" alt="">
 					</i>
@@ -38,7 +38,7 @@
 
 			</li>
 
-			<li><a class="" href="<?= base_url(''); ?>Map_admin" aria-expanded="false">
+			<li><a class="" href="<?= base_url(''); ?>Morimaps_admin" aria-expanded="false">
 					<i class="">
 						<img alt="image" width="30" src="<?= base_url('assets'); ?>/images/admin/morimap.png" alt="">
 					</i>

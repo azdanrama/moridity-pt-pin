@@ -47,7 +47,7 @@
                                 <a class="dropdown-item " href="<?=base_url()?>moridatafe">
                                     MoriData
                                 </a>
-                                <a class="dropdown-item " href="<?=base_url()?>moristore">
+                                <a class="dropdown-item " href="<?=base_url()?>#moristore">
                                     MoriStore
                                 </a> 
                             </div>

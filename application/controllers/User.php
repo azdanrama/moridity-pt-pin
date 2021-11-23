@@ -11,29 +11,29 @@ class User extends CI_Controller {
 	public function index()
 	{
 		$data['user']	= $this->User_m->getData()->result();
-		$this->load->view('user/layouts/header_petani', $data);
+		$this->load->view('user/layouts/header', $data);
 		$this->load->view('user/layouts/sidebar');
 		$this->load->view('user/index');
-		$this->load->view('user/layouts/footer_petani');
+		$this->load->view('user/layouts/footer');
 	}
 
 	public function profile()
 	{
 		$data['user']	= $this->User_m->getData()->result();
-		$this->load->view('user/layouts/header_petani', $data);
+		$this->load->view('user/layouts/header', $data);
 		$this->load->view('user/layouts/sidebar');
 		$this->load->view('user/profile/index', $data);
-		$this->load->view('user/layouts/footer_petani');
+		$this->load->view('user/layouts/footer');
 	}
 
 	public function editProfile($id)
 	{
 		$where			= array ('id' => $id);
 		$data['user']	= $this->User_m->editProfile($where, 'user')->result();
-		$this->load->view('user/layouts/header_petani', $data);
+		$this->load->view('user/layouts/header', $data);
 		$this->load->view('user/layouts/sidebar');
 		$this->load->view('user/profile/edit', $data);
-		$this->load->view('user/layouts/footer_petani');
+		$this->load->view('user/layouts/footer');
 	}
 
 	public function updateData()

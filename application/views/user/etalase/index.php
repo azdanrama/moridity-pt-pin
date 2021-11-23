@@ -16,7 +16,6 @@ ini etalase
 				<div class="card">
 					<div class="card-body">
 
-						<a href="<?php echo base_url('etalase/create') ?>">Tambah</a>
 						<div id="table-data">
 							<table class="table table-borderless">
 								<thead>
@@ -42,6 +41,7 @@ ini etalase
 										<td><?php echo $row->stok_kelor ?></td>
 										<td><img src="<?php echo base_url('./gambar/' .$row->foto_kelor) ?>" width="100"></td>
 										<td>
+											<a href="<?php echo base_url('etalase/create') ?>" class="btn btn-sm btn-primary">Tambah</a>
 											<a href="<?php echo base_url('Etalase/edit/' .$row->id_etalase) ?>" class="btn btn-sm btn-warning">Edit</a>
 											<a href="<?php echo base_url('Etalase/delete/' .$row->id_etalase) ?>" class="btn btn-sm btn-danger">Hapus</a>
 										</td>

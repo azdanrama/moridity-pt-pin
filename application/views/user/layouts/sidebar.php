@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Gymove - Fitness Bootstrap Petani Dashboard</title>
+<title>Petani Dashboard</title>
 <!-- Favicon icon -->
 <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
 <link rel="stylesheet" href="<?= base_url('vendor'); ?>/chartist/css/chartist.min.css">
@@ -38,7 +38,7 @@
 			</li>
 
 
-			<li><a class="" href="<?= base_url(''); ?>Mapsuser" aria-expanded="false">
+			<li><a class="" href="<?= base_url(''); ?>Morimaps_user" aria-expanded="false">
 					<i class="">
 						<img alt="image" width="30" src="<?php echo base_url() ?>/assets/images/admin/morimap.png" alt="">
 					</i>
