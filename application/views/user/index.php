@@ -69,16 +69,6 @@
 								</div>
 
 							</div>
-							<div class="col-sm-3">
-								<div class="card">
-									<div class="card-body d-sm-flex d-block pb-0 ">
-										<div class="mr-auto  mb-sm-0 mb-3">
-											<h4 class="text-center fs-20 ">Kalender</h4>
-											
-										</div>
-									</div>
-								</div>
-							</div>
 
 
 						</div>

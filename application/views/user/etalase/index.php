@@ -8,9 +8,6 @@ ini etalase
 					<div class="card-header">
 						<div class="mr-auto pr-3">
 							<h4 class="text-black font-w700 fs-20">Data Komoditas Kelor </h4><br>
-							<form class="d-flex">
-								<input class="form-control " height="10px" type="search" placeholder="Search" aria-label="Search">
-							</form>
 						</div>
 
 					</div>

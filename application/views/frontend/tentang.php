@@ -33,7 +33,7 @@
 			</div>
 			<div class="col-lg-7">
 				<div class="about-content mt-3 mt-lg-0">
-					<p>Sistem MoriDity adalah sistem yang dibuat untuk memberikan solusi atas permasalahan terkait database komoditas tanaman kelor. Saat ini diketahui bahwa kelor memiliki banyak manfaat. Hal tersebut membuat para pelaku UMKM berlomba-lomba untuk memulai bisnisnya dan berinovasi pada bidang tersebut. Tetapi salah satu masalah utama yang dihadapi oleh para pelaku UMKM adalah kesulitan untuk mendapatkan informasi terkait lokasi dari petani kelor yang ingin diajak kerjasama selain itu para pelaku UMKM juga kesulitan dalam mendapatkan informasi terkait grafik panen per bulan ataupun per tahun pada tanaman kelor ini. Maka dari itu diperlukan adanya sebuah sistem database komoditas kelor yang dapat menanggulangi permasalahan tersebut.</p>
+					<p align="justify">Sistem MoriDity adalah sistem yang dibuat untuk memberikan solusi atas permasalahan terkait database komoditas tanaman kelor. Saat ini diketahui bahwa kelor memiliki banyak manfaat. Hal tersebut membuat para pelaku UMKM berlomba-lomba untuk memulai bisnisnya dan berinovasi pada bidang tersebut. Tetapi salah satu masalah utama yang dihadapi oleh para pelaku UMKM adalah kesulitan untuk mendapatkan informasi terkait lokasi dari petani kelor yang ingin diajak kerjasama selain itu para pelaku UMKM juga kesulitan dalam mendapatkan informasi terkait grafik panen per bulan ataupun per tahun pada tanaman kelor ini. Maka dari itu diperlukan adanya sebuah sistem database komoditas kelor yang dapat menanggulangi permasalahan tersebut.</p>
 				</div>
 			</div>
 		</div>
@@ -55,139 +55,25 @@
 			<div class="col-lg-3 col-sm-6 col-md-6">
 				<div class="feature-block mb-5 mb-lg-0 text-center text-lg-left">
 					<i class="ti-bar-chart"></i>
-					<h4>Strategi Luar Biasa & Tren</h4>
+					<h4>Data yang Aktual</h4>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6">
 				<div class="feature-block mb-5 mb-lg-0 text-center text-lg-left">
 					<i class="ti-headphone-alt"></i>
-					<h4>Tim Ahli & Dukungan Cepat</h4>
+					<h4>Tim Ahli</h4>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6">
 				<div class="feature-block mb-5 mb-lg-0 text-center text-lg-left">
 					<i class="ti-check"></i>
-					<h4>Pencarian Hasil Cepat</h4>
+					<h4>Kemudahan Akses</h4>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6 ">
 				<div class="feature-block text-center text-lg-left">
 					<i class="ti-face-smile"></i>
 					<h4>Layanan Berkualitas</h4>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="section process">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-6">
-				<div class="process-heading text-center">
-					<span class="text-color">Proses Kerja Tim Kami</span>
-					<h2 class="mb-3">We love to share our working process</h2>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-sm-6">
-						<div class="process-item text-center text-lg-left ">
-							<i class="ti-search"></i>
-							<h4>Proyek Penelitian</h4>
-							<p>Repellendus harum amet ipsum, iure earum aliquam .</p>
-						</div>
-						<div class="process-item text-center text-lg-left">
-							<i class="ti-thought"></i>
-							<h4>Temukan Ide</h4>
-							<p>Repellendus harum amet ipsum, iure earum aliquam .</p>
-						</div>
-
-					</div>
-					<div class="col-lg-6 col-sm-6">
-						<div class="process-item text-center text-lg-left">
-							<i class="ti-dashboard"></i>
-							<h4>Mulai Pengoptimalan</h4>
-							<p>Repellendus harum amet ipsum, iure earum aliquam .</p>
-						</div>
-						<div class="process-item text-center text-lg-left">
-							<i class="ti-bar-chart-alt"></i>
-							<h4>Mengenai Target</h4>
-							<p>Repellendus harum amet ipsum, iure earum aliquam .</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<img src="<?=base_url('assets');?>/images/user/bg/about.jpg" alt="" class="img-fluid w-100">
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="section about pt-0">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-6">
-				<div class="about-img">
-					<img src="<?=base_url('assets');?>/images/user/bg/about_img.png" alt="" class="img-fluid w-100">
-				</div>
-			</div>
-			<div class="col-lg-6">
-				<div class="about-item">
-					<span class="text-color">No #1 Ranking at Google</span>
-					<h2>Best Digital Marketing Inc With Expert Team</h2>
-					<p>We brand value Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis assumenda vero laborum nostrum unde soluta voluptatibus quidem, ut necessitatibus, labore quasi aliquam .</p>
-
-					<a href="<?=base_url()?>#" class="btn btn-main">Our Services <i class="fa fa-angle-right ml-2"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="counter">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-6">
-				<div class="heading text-center">
-					<span class="text-color">Our Experience</span>
-					<h2>We have completed 150+ projects succesfully</h2>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item mb-5 mb-lg-0">
-					<i class="ti-world"></i>
-					<div class="counter-stat">
-						<span class="count h2">15</span><span>K</span>
-					</div>
-					<p>Global Customer</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item mb-5 mb-lg-0">
-					<i class="ti-stats-up"></i>
-					<div class="counter-stat">
-						<span class="count h2">1,200</span><span>+</span>
-					</div>
-					<p>Potential Growth</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item mb-5 mb-lg-0">
-					<i class="ti-heart"></i>
-					<div class="counter-stat">
-						<span class="count h2">600</span><span>%</span>
-					</div>
-					<p>Expert Employee</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-6">
-				<div class="counter-item mb-5 mb-lg-0">
-					<i class="ti-thumb-up"></i>
-					<div class="counter-stat">
-						<span class="count h2">80</span><span>+</span>
-					</div>
-					<p>Countries Served</p>
 				</div>
 			</div>
 		</div>

@@ -1,6 +1,7 @@
-<?php $this->load->view('admin/layouts/header_admin') ?>
+<?php foreach ($user as $row) : ?>
 
-<div class="content-body">
+	<?php if ($row->id == $this->session->userdata('id')) : ?>
+		<div class="content-body">
   <div class="container-fluid">
     <div class="page-titles">
     </div>
@@ -15,7 +16,7 @@
           <div class="row">
             <div class="col-sm-2">
               <div class="profile-photo">
-                <img src="<?= base_url('assets'); ?>/images/admin/profile/profile.png" class="img-fluid rounded-circle" alt="">
+                <img src="<?php echo base_url('./gambar/avatar/' .$row->avatar) ?>" class="img-fluid rounded-circle" alt="">
               </div>
               <!-- <img width="85px" src="http://localhost/newmoridity/assets/images/admin/petani.png"> -->
 
@@ -23,13 +24,11 @@
             </div>
 			
             <div class="col-sm-8">
-              <h1>Zayya Humairah </h1>
-              <h6>admin</h6>
-              <h6>id user : 01</h6>
-              <h6>id admin : 01</h6>
+              <h1><?php echo $row->nama ?></h1>
+              <h6><?php echo $row->level ?></h6>
             </div>
             <div class="col-sm-2">
-              <a class="btn btn-warning" href="<?php echo base_url('profile/edit') ?>">Edit</a>
+              <a class="btn btn-warning" href="<?php echo base_url('User/editProfile/' .$row->id) ?>">Edit</a>
               <!-- <img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/edit.png" data-bs-toggle="modal" data-bs-target="#modalForm" alt=""> -->
 
             </div>
@@ -46,31 +45,27 @@
           <tbody>
             <tr>
               <th> Email </th>
-              <td><span> : Zayyahumairah@gmail.com </span></td>
+              <td><span> : <?php echo $row->email ?> </span></td>
             </tr>
             <tr>
               <th> Username </th>
-              <td><span> : admin </span></td>
-            </tr>
-            <tr>
-              <th> Password </th>
-              <td><span> : **********</span></td>
+              <td><span> : <?php echo $row->username ?> </span></td>
             </tr>
             <tr>
               <th> Jenis Kelamin </th>
-              <td><span> : P </span></td>
+              <td><span> : <?php echo $row->jenis_kelamin ?> </span></td>
             </tr>
             <tr>
               <th> Tanggal Lahir </th>
-              <td><span> : 30 Maret 2001 </span></td>
+              <td><span> : <?php echo $row->tgl_lahir ?> </span></td>
             </tr>
             <tr>
               <th> No Telepon </th>
-              <td><span> : 082111255763 </span></td>
+              <td><span> : 0<?php echo $row->telepon ?> </span></td>
             </tr>
             <tr>
               <th> Alamat </th>
-              <td><span> : Jl.Cempaka 1 no 28 </span></td>
+              <td><span> : <?php echo $row->alamat ?> </span></td>
             </tr>
 
 
@@ -81,13 +76,6 @@
     </div>
 
   </div>
+	<?php endif ?>
 
-  
-
-  
-
-  <!--**********************************
-            Content body end
-        ***********************************-->
-
-<?php $this->load->view('admin/layouts/footer_admin') ?>
+<?php endforeach ?>

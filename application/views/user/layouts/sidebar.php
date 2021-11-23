@@ -38,7 +38,7 @@
 			</li>
 
 
-			<li><a class="" href="<?= base_url(''); ?>Map_petani" aria-expanded="false">
+			<li><a class="" href="<?= base_url(''); ?>Mapsuser" aria-expanded="false">
 					<i class="">
 						<img alt="image" width="30" src="<?php echo base_url() ?>/assets/images/admin/morimap.png" alt="">
 					</i>

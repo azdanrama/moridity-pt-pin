@@ -6,7 +6,7 @@
 				<div class="col-xl-12">
 					<div class="card-header">
 						<div class="mr-auto pr-3">
-							<h4 class="text-black font-w700 fs-20">Tambah Komoditas Kelor </h4><br>
+							<h4 class="text-black font-w700 fs-20">Edit Komoditas Kelor </h4><br>
 						</div>
 					</div>
 				</div>
@@ -22,7 +22,7 @@
 								</div>
 								<div class="mb-3">
 								<label class="form-label">Jenis Kelor </label>
-								<input type="text" class="form-control" id="email" name="jenis_kelor" placeholder="jenenis kelor" />
+								<input type="text" class="form-control" id="email" name="jenis_kelor" placeholder="jenis kelor" />
 								</div>
 								<div class="mb-3">
 								<label class="form-label">Tanggal Panen </label>

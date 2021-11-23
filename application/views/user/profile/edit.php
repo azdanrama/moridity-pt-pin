@@ -6,19 +6,8 @@
 				<div class="col-xl-12">
 					<div class="card-header">
 						<div class="mr-auto pr-3">
-							<h4 class="text-black font-w700 fs-20">Ubah Komoditas Kelor </h4><br>
-							<form class="d-flex">
-								<input class="form-control " height="10px" type="search" placeholder="Search" aria-label="Search">
-							</form>
+							<h4 class="text-black font-w700 fs-20">Ubah Profil </h4><br>
 						</div>
-
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/add.png" data-bs-toggle="modal" data-bs-target="#modalForm" alt="">
-						&nbsp; &nbsp;
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/pencil.png" data-bs-toggle="modal" data-bs-target="#modalForm2" alt="">
-						&nbsp; &nbsp;
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/trash.png" alt="">
-
-						&nbsp;
 
 					</div>
 				</div>

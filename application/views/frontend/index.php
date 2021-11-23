@@ -3,47 +3,22 @@
 <!-- Carousel -->
 <section>
 	<!-- Start slides -->
-	<div id="slides" class="cover-slides">
+	<div class="cover-slides">
 		<ul class="slides-container">
 			<li class="text-center">
-			<img src="<?=base_url('assets');?>/images/user/bg/about_img.png" class="img-fluid" alt="Image">
+			<img src="<?=base_url('assets');?>/images/user/banner/pohonkelor.jpg" class="img-fluid" alt="Image" width="1300px">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> Moridity</strong></h1>
+							<!-- <h1 class="m-b-20"><strong>Welcome To <br> Moridity</strong></h1>
 							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
 							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p> -->
 						</div>
 					</div>
 				</div>
 			</li>
-			<li class="text-center">
-			<img src="<?=base_url('assets');?>/images/user/bg/about_img.png" class="img-fluid" alt="Image">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> Moridity</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li class="text-center">
-			<img src="<?=base_url('assets');?>/images/user/bg/about_img.png">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h1 class="m-b-20"><strong>Welcome To <br> Yamifood Restaurant</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p>
-						</div>
-					</div>
-				</div>
-			</li>
+			
 		</ul>
 		<div class="slides-navigation">
 			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -61,37 +36,30 @@
 			<div class="col-lg-6">
 				<div class="heading text-center">
 					<!-- <span class="text-color">Our Experience</span> -->
-					<h2>Fitur Utaman MoriDity</h2>
+					<h2>Fitur Utama MoriDity</h2>
 				</div>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row justify-content-center">
 			<div class="col-lg-3 col-sm-6 col-md-6">
-				<div class="process-item text-center text-lg-left ">
+				<div class="process-item text-center text-lg-center ">
 					<i class="ti-search"></i>
-					<h4>MoriMap</h4>
+					<h4><a href="<?=base_url()?>maps">MoriMap</a></h4>
 					<p>Peta Persebaran Petani Kelor</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6">
-				<div class="process-item text-center text-lg-left ">
+				<div class="process-item text-center text-lg-center ">
 					<i class="ti-dashboard"></i>
-					<h4>MoriData</h4>
-					<p>Grafik Komoditas Kelor</p>
+					<h4><a href="<?=base_url()?>moridatafe">MoriGrafik & Data</a></h4>
+					<p>Grafik dan Laporan Data Komoditas Kelor</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6">
-				<div class="process-item text-center text-lg-left ">
+				<div class="process-item text-center text-lg-center ">
 					<i class="ti-thought"></i>
-					<h4>MoriStore</h4>
+					<h4><a href="<?=base_url()?>moristore">MoriStore</a></h4>
 					<p>Etalase Produk</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-sm-6 col-md-6 ">
-				<div class="process-item text-center text-lg-left ">
-					<i class="ti-bar-chart-alt"></i>
-					<h4>MoriGraph</h4>
-					<p>Grafik Komoditas Kelor</p>
 				</div>
 			</div>
 		</div>
