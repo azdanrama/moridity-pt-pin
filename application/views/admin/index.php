@@ -34,7 +34,7 @@
 						
 											</span>
 											<div class="media-body">
-												<p class="fs-14 mb-2">Data komoditas kelor</p>
+												<p class="fs-14 mb-2">Data komoditas kelor General</p>
 												<span class="title text-black font-w600">150+</span>
 											</div>
 										</div>
