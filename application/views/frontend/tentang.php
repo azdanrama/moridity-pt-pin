@@ -53,25 +53,25 @@
 		</div>
 		<div class="row">
 			<div class="col-lg-3 col-sm-6 col-md-6">
-				<div class="feature-block mb-5 mb-lg-0 text-center text-lg-left">
+				<div class="feature-block mb-5 mb-lg-0 text-center">
 					<i class="ti-bar-chart"></i>
 					<h4>Data yang Aktual</h4>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6 col-md-6">
-				<div class="feature-block mb-5 mb-lg-0 text-center text-lg-left">
+			<div class="col-lg-3 col-sm-6 col-md-6 ">
+				<div class="feature-block mb-5 mb-lg-0 text-center justify-content-center">
 					<i class="ti-headphone-alt"></i>
 					<h4>Tim Ahli</h4>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6">
-				<div class="feature-block mb-5 mb-lg-0 text-center text-lg-left">
+				<div class="feature-block mb-5 mb-lg-0 text-center">
 					<i class="ti-check"></i>
 					<h4>Kemudahan Akses</h4>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6 ">
-				<div class="feature-block text-center text-lg-left">
+				<div class="feature-block text-center">
 					<i class="ti-face-smile"></i>
 					<h4>Layanan Berkualitas</h4>
 				</div>
@@ -87,7 +87,7 @@
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
 						<h2>Moridity Team</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+						<p>Mari kenal lebih dekat dengan MoriDity Team</p>
 					</div>
 				</div>
 			</div>

@@ -2,31 +2,43 @@
 
 <!-- Carousel -->
 <section>
-	<!-- Start slides -->
-	<div class="cover-slides">
-		<ul class="slides-container">
-			<li class="text-center">
-			<img src="<?=base_url('assets');?>/images/user/banner/pohonkelor.jpg" class="img-fluid" alt="Image" width="1300px">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<!-- <h1 class="m-b-20"><strong>Welcome To <br> Moridity</strong></h1>
-							<p class="m-b-40">See how your users experience your website in realtime or view  <br> 
-							trends to see any changes in performance over time.</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Reservation</a></p> -->
-						</div>
-					</div>
-				</div>
-			</li>
-			
-		</ul>
-		<div class="slides-navigation">
-			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-			<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-		</div>
-	</div>
-	<!-- End slides -->
-	</section>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	<img src="<?=base_url('assets');?>/images/user/product/olahan.jpg" class="img-fluid" alt="Image" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+	<img src="<?=base_url('assets');?>/images/user/product/olahan.jpg" class="img-fluid" alt="Image" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+	<img src="<?=base_url('assets');?>/images/user/product/olahan.jpg" class="img-fluid" alt="Image" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</section>
 <!-- end -->
 
 
@@ -69,7 +81,7 @@
 </br>
 </br>
 
-<section class="feature">
+<section class="maps" id="maps">
 		<div class="content-body">
             <div class="container-fluid">
 				<div class="heading text-center">
@@ -136,7 +148,7 @@
                     <div class="col-lg-12">
                     <div class="heading text-center">
                         <h2>Moridity Store</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                        <p>Lihat dan berbelanja langsung dengan petani-petani lokal Indonesia</p>
                     </div>
                     </div>
                 </div>

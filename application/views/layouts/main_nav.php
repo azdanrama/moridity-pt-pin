@@ -41,7 +41,7 @@
                                 Fitur
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbar3">
-                                 <a class="dropdown-item " href="<?=base_url()?>maps">
+                                 <a class="dropdown-item " href="<?=base_url()?>#maps">
                                     MoriMaps
                                 </a>
                                 <a class="dropdown-item " href="<?=base_url()?>moridatafe">

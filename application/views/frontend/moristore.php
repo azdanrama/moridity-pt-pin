@@ -29,7 +29,7 @@
                     <div class="col-lg-12">
                     <div class="heading text-center">
                         <h2>Moridity Store</h2>
-                        <p>Disini merupakan toko hasil olahan petani</p>
+                        <p>Lihat dan berbelanja langsung dengan petani-petani lokal Indonesia</p>
                     </div>
                     </div>
                 </div>

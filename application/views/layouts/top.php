@@ -26,6 +26,10 @@
 		
 		<link rel="icon" type="image/png" sizes="16x16" href="<?=base_url('assets');?>/images/admin/logomoridity.png">
 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 		 <!--**********************************
 				Scripts
 			***********************************-->
@@ -43,13 +47,13 @@
 			<script src="<?=base_url('assets')?>/vendor/jqvmap/js/jquery.vmap.world.js"></script>
 			<script src="<?=base_url('assets')?>/vendor/jqvmap/js/jquery.vmap.usa.js"></script>
 
-			<script src="<?=base_url('assets')?>/js/slider/jquery.superslides.min.js"></script>
+			<!-- <script src="<?=base_url('assets')?>/js/slider/jquery.superslides.min.js"></script>
 			<script src="<?=base_url('assets')?>/js/images-loaded.min.js"></script>
 			<script src="<?=base_url('assets')?>/js/slider/legacy.js"></script>
 			<script src="<?=base_url('assets')?>/js/slider/popper.min.js"></script>
 			<script src="<?=base_url('assets')?>/js/slider/custom.js"></script>
 			<script src="<?=base_url('assets')?>/js/slider/baguetteBox.js"></script>
-			<script src="<?=base_url('assets')?>/js/slider/isotope.js"></script>
+			<script src="<?=base_url('assets')?>/js/slider/isotope.js"></script> -->
 
 			<script type="text/javascript" src="<?php echo base_url('assets/vendor/pustaka_FSC/js/fusioncharts.js') ?>"></script>
 			<script type="text/javascript" src="<?php echo base_url('pustaka_FSC/js/themes/fusioncharts.theme.zune.js') ?>"></script>
