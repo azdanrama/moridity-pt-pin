@@ -12,20 +12,20 @@ class Etalase extends CI_Controller {
 	{
 		$data['etalase'] 	= $this->Etalase_m->getData();
 		$data['user']		= $this->Etalase_m->getAvatar()->result();
-		$this->load->view('user/layouts/header_petani', $data);
+		$this->load->view('user/layouts/header', $data);
 		$this->load->view('user/layouts/sidebar');
 		$this->load->view('user/etalase/index', $data);
-		$this->load->view('user/layouts/footer_petani');
+		$this->load->view('user/layouts/footer');
 	}
 
 	public function create()
 	{
 		$data['data_komoditas_kelor']	= $this->Etalase_m->getKomoditas()->result();
 		$data['user']					= $this->Etalase_m->getAvatar()->result();
-		$this->load->view('user/layouts/header_petani', $data);
+		$this->load->view('user/layouts/header', $data);
 		$this->load->view('user/layouts/sidebar');
 		$this->load->view('user/etalase/create', $data);
-		$this->load->view('user/layouts/footer_petani');
+		$this->load->view('user/layouts/footer');
 	}
 
 	public function create_data()
@@ -62,10 +62,10 @@ class Etalase extends CI_Controller {
 		$data['data_komoditas_kelor']	= $this->Etalase_m->getKomoditas()->result();
 		$data['user']					= $this->Etalase_m->getAvatar()->result();
 		
-		$this->load->view('user/layouts/header_petani', $data);
+		$this->load->view('user/layouts/header', $data);
 		$this->load->view('user/layouts/sidebar');
 		$this->load->view('user/etalase/edit', $data);
-		$this->load->view('user/layouts/footer_petani');
+		$this->load->view('user/layouts/footer');
 	}
 
 	public function update()

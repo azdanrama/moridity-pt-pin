@@ -12,8 +12,8 @@
 					<h5 class="widget-title">Alamat</h5>
 					<p>Jakarta Timur, Ibukota Jakarta Kota <br> 1946 </p>
 					<ul class="list-unstyled">
-						<li>E : MoridityDeveloper@gmail.com</li>
-						<li>P : +62 856 9122 4345</li>
+						<li>E : Moridity30@gmail.com</li>
+						<li>P : +62 821 1125 5763</li>
 					</ul>
 				</div>
 			</div>
@@ -21,21 +21,21 @@
 				<div class="widget footer-widget mb-5 mb-lg-0">
 					<h5 class="widget-title">Quick Links</h5>
 					<ul class="list-unstyled footer-links">
-						<li><a href="<?=base_url()?>#">Tentang Kami</a></li>
-						<li><a href="<?=base_url()?>#">Kontak</a></li>
-						<li><a href="<?=base_url()?>#">Projects</a></li>
-						<li><a href="<?=base_url()?>#">Terms & Condition</a></li>
-						<li><a href="<?=base_url()?>#">Privacy Policy</a></li>
+						<li><a href="<?=base_url()?>Tentang">Tentang Kami</a></li>
+						<li><a href="<?=base_url()?>Kontak">Kontak</a></li>
+						<li><a href="<?=base_url()?>Moristore">MoriStore</a></li>
+						<li><a href="<?=base_url()?>#maps">MoriMap</a></li>
+						<li><a href="<?=base_url()?>Moridatafe">MoriData</a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6">
 				<div class="widget footer-widget mb-5 mb-lg-0">
-					<h5 class="widget-title">Subscribe</h5>
-					<p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+					<h5 class="widget-title">Berlangganan</h5>
+					<p>Jangan lewatkan untuk berlangganan feed baru kami, mohon isi formulir di bawah ini.</p>
 					 <form action="#" class="subs-form">
-					 	<input type="text" class="form-control" placeholder="Email Address">
-					 	<a href="<?=base_url()?>#" class="btn btn-main-2 btn-sm">Subscribe</a>
+					 	<input type="text" class="form-control" placeholder="Alamat Email">
+					 	<a href="<?=base_url()?>#" class="btn btn-main-2 btn-sm">Berlangganan</a>
 					 </form>
 				</div>
 			</div>

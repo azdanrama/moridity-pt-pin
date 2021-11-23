@@ -7,18 +7,7 @@
 					<div class="card-header">
 						<div class="mr-auto pr-3">
 							<h4 class="text-black font-w700 fs-20">Edit Etalase </h4><br>
-							<form class="d-flex">
-								<input class="form-control " height="10px" type="search" placeholder="Search" aria-label="Search">
-							</form>
 						</div>
-
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/add.png" data-bs-toggle="modal" data-bs-target="#modalForm" alt="">
-						&nbsp; &nbsp;
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/pencil.png" data-bs-toggle="modal" data-bs-target="#modalForm2" alt="">
-						&nbsp; &nbsp;
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/trash.png" alt="">
-
-						&nbsp;
 
 					</div>
 				</div>
@@ -36,8 +25,8 @@
 										<option value="<?php echo $kelor->id ?>"><?php echo $kelor->jenis_kelor ?></option>
 									<?php endforeach ?>
 								</select><br>
-								<label class="form-label">Luas Kebun</label>
-								<input type="text" class="form-control" name="luas_kebun" value="<?php echo $row->luas_kebun ?>" />
+								<label class="form-label">Stok Kelor</label>
+								<input type="text" class="form-control" name="luas_kebun" value="<?php echo $row->stok_kelor ?>" />
 								</div>
 								<div class="mb-3">
 								<label class="form-label">Upload komoditas kelor</label>

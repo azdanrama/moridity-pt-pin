@@ -9,7 +9,7 @@
 				<div class="col-xl-12">
 					<div class="card-header">
 						<div class="mr-auto pr-3">
-							<h4 class="text-black font-w700 fs-20">Data petani</h4><br>
+							<h4 class="text-black font-w700 fs-20">Data Lokasi Petani Kelor</h4><br>
 
 						</div>
 
@@ -36,13 +36,7 @@
 							<a class="btn btn-warning" href="">Simpan</a>
 						</div>
 					</div>
-					<!-- <div class="col-xl-12">
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/add.png" data-bs-toggle="modal" data-bs-target="#modalForm" alt="">
-						&nbsp; &nbsp;&nbsp; &nbsp;
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/pencil.png" data-bs-toggle="modal" data-bs-target="#modalForm2" alt="">
-						&nbsp; &nbsp;&nbsp; &nbsp;
-						<img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/trash.png" alt="">
-					</div> -->
+
 
 				</div>
 

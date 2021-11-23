@@ -42,7 +42,7 @@
 			<div class="col-lg-3 col-sm-6 col-md-6">
 				<div class="process-item text-center text-lg-center ">
 					<i class="ti-search"></i>
-					<h4><a href="<?=base_url()?>maps">MoriMap</a></h4>
+					<h4><a href="<?=base_url()?>#maps">MoriMap</a></h4>
 					<p>Peta Persebaran Petani Kelor</p>
 				</div>
 			</div>
@@ -56,7 +56,7 @@
 			<div class="col-lg-3 col-sm-6 col-md-6">
 				<div class="process-item text-center text-lg-center ">
 					<i class="ti-thought"></i>
-					<h4><a href="<?=base_url()?>moristore">MoriStore</a></h4>
+					<h4><a href="<?=base_url()?>#moristore">MoriStore</a></h4>
 					<p>Etalase Produk</p>
 				</div>
 			</div>
@@ -127,7 +127,7 @@
 </section>
 
 <!-- Start Menu -->
-<section class="section store">
+<section class="section store" id="moristore">
         <div class="menu-box">
             <div class="container">
                 <div class="row">

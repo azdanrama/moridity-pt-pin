@@ -72,19 +72,19 @@ class Moridata extends CI_Controller {
 		$data['komoditas_kelor']	= $this->Moridata_m->getData();
 		$data['filterData']			= $this->Moridata_m->filterData();
 		$data['user']				= $this->Moridata_m->getAvatar()->result();
-		$this->load->view('user/layouts/header_petani', $data);
+		$this->load->view('user/layouts/header', $data);
 		$this->load->view('user/layouts/sidebar');
 		$this->load->view('user/moridata/index', $data);
-		$this->load->view('user/layouts/footer_petani');
+		$this->load->view('user/layouts/footer');
 	}
 
 	public function create()
 	{
 		$data['user']	= $this->Moridata_m->getuser()->result();
-		$this->load->view('user/layouts/header_petani', $data);
+		$this->load->view('user/layouts/header', $data);
 		$this->load->view('user/layouts/sidebar');
 		$this->load->view('user/moridata/create', $data);
-		$this->load->view('user/layouts/footer_petani');
+		$this->load->view('user/layouts/footer');
 	}
 
 	public function create_data()
@@ -112,10 +112,10 @@ class Moridata extends CI_Controller {
 		$where	= array ('id_datakelor' => $id);
 		$data['komoditas_kelor']	= $this->Moridata_m->editData($where, 'data_komoditas_kelor')->result();
 		$data['user']				= $this->Moridata_m->getAvatar()->result();
-		$this->load->view('user/layouts/header_petani', $data);
+		$this->load->view('user/layouts/header', $data);
 		$this->load->view('user/layouts/sidebar');
 		$this->load->view('user/moridata/edit', $data);
-		$this->load->view('user/layouts/footer_petani');
+		$this->load->view('user/layouts/footer');
 
 	}
 
