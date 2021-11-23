@@ -29,6 +29,7 @@
 										<th scope="col">Tanggal Panen</th>
 										<th scope="col">Jumlah Panen</th>
 										<th scope="col">Aksi</th>
+										<th scope="col"></th>
 									</tr>
 								</thead>
 								<tbody>
@@ -43,10 +44,12 @@
 												<td><?php echo $row->jenis_kelor ?></td>
 												<td><?php echo $row->tgl_panen ?></td>
 												<td><?php echo $row->jumlah_panen ?></td>
-												<td>
+												<th>
 													<a href="<?php echo base_url('moridata/edit/' .$row->id_datakelor) ?>" class="btn btn-sm btn-warning">Edit</a>
+												</th>
+												<th>
 													<a href="<?php echo base_url('moridata/delete/' .$row->id_datakelor) ?>" class="btn btn-sm btn-danger">Hapus</a> 
-												</td>
+												</th>
 											</tr>
 										<?php endif ?>
 									<?php } ?>
@@ -56,6 +59,9 @@
 					</div>
 				</div>
 			</div>
+
+			    
+
 
 			
 
