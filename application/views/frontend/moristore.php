@@ -7,14 +7,14 @@
         <div class="block">
           <ul class="list-inline">
             <li class="list-inline-item">
-              <a href="<?=base_url()?>#">Beranda</a>
+              <a href="<?=base_url()?>main">Beranda</a>
             </li>
              <li class="list-inline-item">/</li>
             <li class="list-inline-item">
-                Mori Store
+                MoriStore
             </li>
           </ul>
-           <h1>Moridity Store</h1>
+           <h1>MoriDity Store</h1>
         </div>
       </div>
     </div>
