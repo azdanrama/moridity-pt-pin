@@ -36,16 +36,17 @@
                         
                 <div class="row special-list">
                     <?php foreach ($etalase as $row) : ?>
-						<div class="col-lg-4 col-md-6 special-grid drinks">
-							<div class="gallery-single fix">
-								<img src="<?=base_url();?>/gambar/<?php echo $row->foto_kelor ?>" class="img-fluid" alt="Image">
-								<div class="why-text">
-									<h4><?php echo $row->nama_kebun ?></h4>
-									<h5><?php echo $row->stok_kelor ?></h5>
-								</div>
-							</div>
-						</div>	
-					<?php endforeach ?>
+                      <div class="col-lg-4 col-md-6 special-grid drinks">
+                        <div class="gallery-single fix">
+                          <img src="<?=base_url();?>/gambar/<?php echo $row->foto_kelor ?>" class="img-fluid" alt="Image">
+                          <div class="why-text">
+                            <h4><?php echo $row->nama_kebun ?></h4>
+                            <h5><?php echo $row->stok_kelor ?></h5>
+                            <a href="<?=base_url()?>#" class="btn btn-main-2">Pesan Sekarang</a>
+                          </div>
+                        </div>
+                      </div>	
+					    <?php endforeach ?>
                 </div>
     </section>
 <!-- End Menu -->

@@ -1,5 +1,10 @@
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=rubik:300,400,600,700&display=swap");
+
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   line-height: 1.7;
   font-family: "Rubik", sans-serif;
@@ -7,6 +12,7 @@ body {
   font-size: 16px;
   color: #858585;
   font-weight: 400;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {

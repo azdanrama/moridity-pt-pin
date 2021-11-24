@@ -15,7 +15,7 @@
               MoriData & MoriGraph
             </li>
           </ul>
-           <h1>MoriDity Data & MoriDity Graph</h1>
+           <h1>MoriDity Data & Graph</h1>
         </div>
       </div>
     </div>

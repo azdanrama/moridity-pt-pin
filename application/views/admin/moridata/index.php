@@ -30,6 +30,7 @@
 										<th scope="col">Tanggal Panen</th>
 										<th scope="col">Jumlah Panen</th>
 										<th scope="col">Aksi</th>
+										<th scope="col"></th>
 									</tr>
 								</thead>
 								<tbody>
@@ -43,7 +44,12 @@
 											<td><?php echo $row->jenis_kelor ?></td>
 											<td><?php echo $row->tgl_panen ?></td>
 											<td><?php echo $row->jumlah_panen ?></td>
-											
+											<td>
+												<a href="" class="btn btn-sm btn-warning">Edit</a>
+											</td>
+											<td>
+												<a href="" class="btn btn-sm btn-danger">Hapus</a>
+											</td>
 										</tr>
 									<?php endforeach ?>
 								</tbody>
