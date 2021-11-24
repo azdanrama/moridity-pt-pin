@@ -11,7 +11,7 @@ class Moristore extends CI_Controller {
 	public function index()
 	{
 		$site = [
-			'title' => 'Moristore | MoriDity'
+			'title' => 'MoriStore | MoriDity'
 		];
 
 		$data['etalase'] = $this->Etalase_m->getData();

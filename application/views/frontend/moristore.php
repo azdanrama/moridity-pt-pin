@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                     <div class="heading text-center">
-                        <h2>Moridity Store</h2>
+                        <h2>MoriDity Store</h2>
                         <p>Lihat dan berbelanja langsung dengan petani-petani lokal Indonesia</p>
                     </div>
                     </div>

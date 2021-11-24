@@ -138,6 +138,17 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   color: #fff;
 }
 
+.btn-main-4 {
+  background: #c99e31;
+  color: #fff;
+}
+
+.btn-main-4:hover {
+  background: #c99e31;
+  color: #fff;
+}
+
+
 .btn-white {
   background: #fff;
   color: #111;
@@ -218,8 +229,13 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   background: #202122;
 }
 
+.section-graph {
+  padding: 40px 0px 0px;
+}
+
+
 .section {
-  padding: 100px 0;
+  padding: 0px 60px 60px;
 }
 
 .section-sm {

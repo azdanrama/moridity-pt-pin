@@ -28,7 +28,7 @@
 </section> -->
 
 
-<section class="section grafik">
+<section class="section-graph">
 		<div class="content-body">
       <div class="container-fluid">
 				<div class="heading text-center">
@@ -54,7 +54,7 @@
     </div>
 </section>
 
-<section class="section table">
+<section class="section">
 		<div class="content-body">
             <div class="container-fluid">
 				<div class="heading text-center">

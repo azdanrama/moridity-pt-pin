@@ -24,10 +24,10 @@
 					<h5 class="widget-title">Media Sosial</h5>
 					<ul class="list-unstyled footer-links">
 						<li>
-							<a href="<?=base_url()?>#"><i class="fab fa-facebook"></i>&emsp;Facebook</a>
+							<a href="https://www.facebook.com/moridityofficial" target="_blank"><i class="fab fa-facebook"></i>&emsp;Facebook</a>
 						</li>
 						<li>
-							<a href="<?=base_url()?>#"> <i class="fab fa-instagram"></i>&emsp;Instagram</a>
+							<a href="https://www.instagram.com/moridityofficial/" target="_blank"> <i class="fab fa-instagram"></i>&emsp;Instagram</a>
 						</li>
 						<li>
 							<a href="<?=base_url()?>#"> <i class="fab fa-twitter"></i>&emsp;Twitter</a>

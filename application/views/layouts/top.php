@@ -44,6 +44,8 @@
 			<script src="<?=base_url('assets')?>/vendor/jqvmap/js/jquery.vmap.world.js"></script>
 			<script src="<?=base_url('assets')?>/vendor/jqvmap/js/jquery.vmap.usa.js"></script>
 
+			<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 			<!-- <script src="<?=base_url('assets')?>/js/slider/jquery.superslides.min.js"></script>
 			<script src="<?=base_url('assets')?>/js/images-loaded.min.js"></script>
 			<script src="<?=base_url('assets')?>/js/slider/legacy.js"></script>

@@ -11,7 +11,7 @@ class Moridatafe extends CI_Controller {
 	public function index()
 	{
 		$site = [
-			'title' => 'Tentang | MoriDity'
+			'title' => 'MoriData & MoriGraph | MoriDity'
 		];
 
 		$data['user'] = $this->Admin_moridata_m->getDataUser();

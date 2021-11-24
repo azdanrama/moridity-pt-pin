@@ -32,29 +32,30 @@
 	<div class="container">
 	<div class="row justify-content-center">
 			<div class="col-lg-6">
-				<div class="heading text-center">
+				<div class="heading text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
 					<!-- <span class="text-color">Our Experience</span> -->
 					<h2>Fitur Utama MoriDity</h2>
 				</div>
 			</div>
 		</div>
 		<div class="row justify-content-center">
-			<div class="col-lg-3 col-sm-6 col-md-6">
-				<div class="process-item text-center text-lg-center ">
+			<div class="col-lg-3 col-sm-6 col-md-6" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="1000" data-aos-once="true">
+				<div class="process-item text-center text-lg-center">
 					<i class="ti-map"></i>
 					<h4><a href="<?=base_url()?>#maps">MoriMap</a></h4>
 					<p>Peta Persebaran Petani Kelor</p>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6 col-md-6">
+			<div class="col-lg-3 col-sm-6 col-md-6" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="2000" data-aos-once="true">
 				<div class="process-item text-center text-lg-center ">
 					<i class="ti-layout"></i>
+					&ensp;
 					<i class="ti-bar-chart"></i>
 					<h4><a href="<?=base_url()?>moridatafe">MoriData & MoriGraph</a></h4>
 					<p>Laporan dan Grafik Data Komoditas Kelor</p>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6 col-md-6">
+			<div class="col-lg-3 col-sm-6 col-md-6" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="3000" data-aos-once="true">
 				<div class="process-item text-center text-lg-center ">
 					<i class="ti-shopping-cart"></i>
 					<h4><a href="<?=base_url()?>#moristore">MoriStore</a></h4>
@@ -146,16 +147,16 @@
                         <div class="gallery-single fix">
                           <img src="<?=base_url();?>/gambar/<?php echo $row->foto_kelor ?>" class="img-fluid" alt="Image">
                           <div class="why-text">
-                            <h4><?php echo $row->nama_kebun ?></h4>
-                            <h5><?php echo $row->stok_kelor ?></h5>
-							<a href="<?=base_url()?>#" class="btn btn-main-2">Pesan Sekarang</a>
+                            <h3><?php echo $row->nama_kebun ?></h3>
+                            <h6>Stok: <?php echo $row->stok_kelor ?></h6>
+							<a href="<?=base_url()?>#" class="btn btn-main-4">Pesan</a>
                           </div>
                         </div>
                       </div>	
 					    <?php endforeach ?>
                 </div>
 				<div class="title text-center">
-					<a href="<?=base_url()?>moristore">Lihat Selengkapnya</a>
+					<a href="<?=base_url()?>moristore" class="btn btn-main-3">Lihat Selengkapnya</a>
                 </div>
     </section>
 <!-- End Menu -->
