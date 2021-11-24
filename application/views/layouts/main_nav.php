@@ -15,7 +15,7 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <!-- Links -->
                     <ul class="navbar-nav ml-auto">
-                    	 <li class="nav-item <?= $this->uri->segment(1) == 'home' || $this->uri->segment(1) == '' ? 'class="nav-item active"' : '' ?>">
+                    	 <li class="nav-item">
                             <a href="<?=base_url()?>main" class="nav-link js-scroll-trigger">
                                 Beranda
                             </a>
@@ -26,11 +26,6 @@
                                 Tentang
                             </a>
                         </li>
-                        <!-- <li class="nav-item ">
-                            <a href="<?=base_url()?>maps" class="nav-link js-scroll-trigger">
-                                Peta
-                            </a>
-                        </li> -->
                         <li class="nav-item ">
                             <a href="<?=base_url()?>kontak" class="nav-link">
                                 Kontak
@@ -42,12 +37,12 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbar3">
                                  <a class="dropdown-item " href="<?=base_url()?>#maps">
-                                    MoriMaps
+                                    MoriMap
                                 </a>
                                 <a class="dropdown-item " href="<?=base_url()?>moridatafe">
-                                    MoriData
+                                    MoriData & MoriGraph
                                 </a>
-                                <a class="dropdown-item " href="<?=base_url()?>#moristore">
+                                <a class="dropdown-item " href="<?=base_url()?>moristore">
                                     MoriStore
                                 </a> 
                             </div>

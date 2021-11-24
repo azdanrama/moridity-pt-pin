@@ -8,14 +8,14 @@
          
           <ul class="list-inline">
             <li class="list-inline-item">
-              <a href="<?=base_url()?>#">Beranda</a>
+              <a href="<?=base_url()?>main">Beranda</a>
             </li>
              <li class="list-inline-item">/</li>
             <li class="list-inline-item">
-                Mori Data
+              MoriData & MoriGraph
             </li>
           </ul>
-           <h1>Moridity Data</h1>
+           <h1>MoriDity Data & MoriDity Graph</h1>
         </div>
       </div>
     </div>

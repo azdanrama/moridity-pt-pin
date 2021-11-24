@@ -8,7 +8,7 @@
          
           <ul class="list-inline">
             <li class="list-inline-item">
-              <a href="<?=base_url()?>#">Home</a>
+              <a href="<?=base_url()?>main">Beranda</a>
             </li>
              <li class="list-inline-item">/</li>
             <li class="list-inline-item">

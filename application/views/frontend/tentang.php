@@ -5,10 +5,9 @@
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <div class="block">
-         
           <ul class="list-inline">
             <li class="list-inline-item">
-              <a href="<?=base_url()?>#">Beranda</a>
+				<a href="<?=base_url()?>main">Beranda</a>
             </li>
              <li class="list-inline-item">/</li>
             <li class="list-inline-item">
@@ -33,7 +32,7 @@
 			</div>
 			<div class="col-lg-7">
 				<div class="about-content mt-3 mt-lg-0">
-					<p align="justify">Sistem MoriDity adalah sistem yang dibuat untuk memberikan solusi atas permasalahan terkait database komoditas tanaman kelor. Saat ini diketahui bahwa kelor memiliki banyak manfaat. Hal tersebut membuat para pelaku UMKM berlomba-lomba untuk memulai bisnisnya dan berinovasi pada bidang tersebut. Tetapi salah satu masalah utama yang dihadapi oleh para pelaku UMKM adalah kesulitan untuk mendapatkan informasi terkait lokasi dari petani kelor yang ingin diajak kerjasama selain itu para pelaku UMKM juga kesulitan dalam mendapatkan informasi terkait grafik panen per bulan ataupun per tahun pada tanaman kelor ini. Maka dari itu diperlukan adanya sebuah sistem database komoditas kelor yang dapat menanggulangi permasalahan tersebut.</p>
+					<p align="justify">Sistem MoriDity adalah sistem yang dibuat untuk memberikan solusi atas permasalahan terkait database komoditas tanaman kelor. Saat ini diketahui bahwa kelor memiliki banyak manfaat. Hal tersebut membuat para pelaku UMKM berlomba-lomba untuk memulai bisnisnya dan berinovasi pada tanaman tersebut. Namun, salah satu masalah utama yang dihadapi oleh para pelaku UMKM adalah kesulitan untuk mendapatkan informasi terkait lokasi dari petani kelor yang ingin diajak kerjasama. Selain itu, para pelaku UMKM juga kesulitan dalam mendapatkan informasi terkait grafik panen pada tanaman kelor ini. Maka dari itu, diperlukan adanya sebuah sistem database komoditas kelor yang dapat menyelesaikan permasalahan tersebut.</p>
 				</div>
 			</div>
 		</div>
@@ -87,7 +86,7 @@
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
 						<h2>Moridity Team</h2>
-						<p>Mari kenal lebih dekat dengan MoriDity Team</p>
+						<p>Mari mengenal lebih dekat dengan MoriDity Team</p>
 					</div>
 				</div>
 			</div>
@@ -102,6 +101,7 @@
 								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Tia Zahroni</strong></h5>
 								<h6 class="text-dark m-0">Web Developer</h6>
 								<p class="m-0 pt-3">"Matahari akan tenggelam sore ini, namun esok pagi ia akan terbit lagi. Hari ini mungkin doa dan harapanmu belum terkabul. Namun esok hari, boleh jadi akan terkabul."</p>
+								<br>
 								<ul class="list-inline">
 									<li class="list-inline-item">
 										<a href="<?=base_url()?>#"><i class="ti-facebook"></i></a>
@@ -117,6 +117,7 @@
 								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Ageng Ayu</strong></h5>
 								<h6 class="text-dark m-0">Web Designer</h6>
 								<p class="m-0 pt-3"> "Kejujuran adalah batu penjuru dari segala kesuksesan. Pengakuan adalah motivasi terkuat. Bahkan kritik dapat membangun rasa percaya diri saat 'disisipkan' di antara pujian." (May Kay Ash)</p>
+								<br>
 								<ul class="list-inline">
 									<li class="list-inline-item">
 										<a href="<?=base_url()?>#"><i class="ti-facebook"></i></a>
@@ -130,8 +131,9 @@
 									<img src="<?=base_url('assets');?>/images/team/Adilla.png" alt="" class="d-block w-100 rounded-circle">
 								</div>
 								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Adilla Permata Safira</strong></h5>
-								<h6 class="text-dark m-0">Seo Analyst</h6>
-								<p class="m-0 pt-3">"Gagal itu makanan sehari-hari, Itu biasa, yang penting bagaimana kamu menyikapinya. Evaluasi dan terus bangkit. Jika gagal lagi? Bangkit lagi."</p>
+								<h6 class="text-dark m-0">System Analyst</h6>
+								<p class="m-0 pt-3">"Gagal itu makanan sehari-hari. Hal yang terpenting yang adalah bagaimana kamu menyikapinya. Evaluasi dan terus bangkit. Jika gagal lagi? Bangkit lagi."</p>
+								<br>
 								<ul class="list-inline">
 									<li class="list-inline-item">
 										<a href="<?=base_url()?>#"><i class="ti-facebook"></i></a>
@@ -144,9 +146,10 @@
 								<div class="img-box p-1 border rounded-circle m-auto">
 									<img src="<?=base_url('assets');?>/images/team/Azdan.png" alt="" class="d-block w-100 rounded-circle">
 								</div>
-								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Azdan Villa Ramadhani</strong></h5>
-								<h6 class="text-dark m-0">Seo Analyst</h6>
+								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Azdan Vila Ramadhani</strong></h5>
+								<h6 class="text-dark m-0">Database Designer, Document Engineer</h6>
 								<p class="m-0 pt-3"> "Kebanggaan kita yang terbesar adalah bukan tidak pernah gagal, tetapi bangkit kembali setiap kali kita jatuh." (Confusius)</p>
+								<br>
 								<ul class="list-inline">
 									<li class="list-inline-item">
 										<a href="<?=base_url()?>#"><i class="ti-facebook"></i></a>
@@ -160,8 +163,9 @@
 									<img src="<?=base_url('assets');?>/images/team/Andhika.png" alt="" class="d-block w-100 rounded-circle">
 								</div>
 								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Andhika Rafi</strong></h5>
-								<h6 class="text-dark m-0">Seo Analyst</h6>
+								<h6 class="text-dark m-0">UI/UX Designer, Quality Assurance Manager</h6>
 								<p class="m-0 pt-3">"Kesempatan kamu untuk sukses di setiap kondisi selalu dapat diukur oleh seberapa besar kepercayaan kamu pada diri sendiri." (Robert Collier)</p>
+								<br>
 								<ul class="list-inline">
 									<li class="list-inline-item">
 										<a href="<?=base_url()?>#"><i class="ti-facebook"></i></a>

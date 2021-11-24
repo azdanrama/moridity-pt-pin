@@ -41,23 +41,24 @@
 		<div class="row justify-content-center">
 			<div class="col-lg-3 col-sm-6 col-md-6">
 				<div class="process-item text-center text-lg-center ">
-					<i class="ti-search"></i>
+					<i class="ti-map"></i>
 					<h4><a href="<?=base_url()?>#maps">MoriMap</a></h4>
 					<p>Peta Persebaran Petani Kelor</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6">
 				<div class="process-item text-center text-lg-center ">
-					<i class="ti-dashboard"></i>
-					<h4><a href="<?=base_url()?>moridatafe">MoriGrafik & Data</a></h4>
-					<p>Grafik dan Laporan Data Komoditas Kelor</p>
+					<i class="ti-layout"></i>
+					<i class="ti-bar-chart"></i>
+					<h4><a href="<?=base_url()?>moridatafe">MoriData & MoriGraph</a></h4>
+					<p>Laporan dan Grafik Data Komoditas Kelor</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6">
 				<div class="process-item text-center text-lg-center ">
-					<i class="ti-thought"></i>
+					<i class="ti-shopping-cart"></i>
 					<h4><a href="<?=base_url()?>#moristore">MoriStore</a></h4>
-					<p>Etalase Produk</p>
+					<p>Etalase Produk Kelor</p>
 				</div>
 			</div>
 		</div>
@@ -118,8 +119,8 @@
 			<div class="col-lg-6">
 				<div class="cta-content text-center">
 					<!-- <span class="text-color">Get Consultant</span> -->
-					<h2 class="mt-3 mb-4 ">Apakah Anda ingin menjadi bagian dari keluarga komoditas kami?</h2>
-					<a href="<?=base_url()?>kontak" class="btn btn-main-2">Hubungi Kami</a>
+					<h2 class="mt-4 mb-4 ">Apakah Anda ingin menjadi bagian dari keluarga komoditas<br>kelor kami?</h2>
+					<a href="<?=base_url()?>kontak" class="btn btn-main-3">Hubungi Kami</a>
 				</div>
 			</div>
 		</div>
@@ -133,8 +134,8 @@
                 <div class="row">
                     <div class="col-lg-12">
                     <div class="heading text-center">
-                        <h2>Moridity Store</h2>
-                        <p>Lihat dan berbelanja langsung dengan petani-petani lokal Indonesia</p>
+                        <h2>MoriDity Store</h2>
+                        <p>Lihat dan berbelanja langsung dengan petani-petani kelor di Indonesia</p>
                     </div>
                     </div>
                 </div>
