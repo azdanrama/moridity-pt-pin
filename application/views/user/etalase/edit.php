@@ -18,11 +18,18 @@
 						<form action="<?php echo base_url('etalase/update') ?>" method="post" enctype="multipart/form-data">
 							<input type="hidden" name="id_user" value="<?php echo $this->session->userdata('id') ?>">
 							<div class="mb-3">
-								<input type="hidden" name="id" value="<?php echo $row->id ?>">
-								<label for="id_datakelor">Jenis Kelor</label>
-								<select name="id_datakelor" class="form-control">
+								<input type="hidden" name="id_etalase" value="<?php echo $row->id_etalase ?>">
+								<input type="hidden" name="id_datakelor" value="<?php echo $row->id_datakelor ?>">
+								<label for="">Nama Kebun</label>
+								<select name="nama_kebun" class="form-control">
+									<?php foreach ($data_komoditas_kelor as $kebun) : ?>
+										<option value="<?php echo $kebun->id_datakelor ?>"><?php echo $kebun->nama_kebun ?></option>
+									<?php endforeach ?>
+								</select><br>
+								<label for="#">Jenis Kelor</label>
+								<select name="jenis_Kelor" class="form-control">
 									<?php foreach ($data_komoditas_kelor as $kelor) : ?>
-										<option value="<?php echo $kelor->id ?>"><?php echo $kelor->jenis_kelor ?></option>
+										<option value="<?php echo $kelor->id_datakelor ?>"><?php echo $kelor->jenis_kelor ?></option>
 									<?php endforeach ?>
 								</select><br>
 								<label class="form-label">Stok Kelor</label>

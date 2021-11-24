@@ -58,11 +58,12 @@ class Etalase extends CI_Controller {
 		redirect('Etalase/index');
 	}
 
-	public function edit($id)
+	public function edit($id_etalase)
 	{
-		$where	= array ('id' => $id);
+		$where	= array ('id_etalase' => $id_etalase);
 		$data['etalase']				= $this->Etalase_m->editData($where, 'etalase_produk')->result();
-		$data['data_komoditas_kelor']	= $this->Etalase_m->getKomoditas()->result();
+		$data['data_komoditas_kelor']	= $this->Etalase_m->getData();
+		$data['data_kelor']				= $this->Etalase_m->getKomoditas();
 		$data['user']					= $this->Etalase_m->getAvatar()->result();
 		
 		$this->load->view('user/layouts/header', $data);
@@ -73,8 +74,7 @@ class Etalase extends CI_Controller {
 
 	public function update()
 	{
-		$id				= $this->input->post('id');
-		$nama_produk	= $this->input->post('nama_produk');
+		$id_etalase		= $this->input->post('id_etalase');
 		$id_datakelor	= $this->input->post('id_datakelor');
 		$id_user		= $this->input->post('id_user');
 		$stok_kelor		= $this->input->post('stok_kelor');
@@ -92,7 +92,6 @@ class Etalase extends CI_Controller {
 		}
 
 		$data			= array (
-			'nama_produk'	=> $nama_produk,
 			'id_datakelor'	=> $id_datakelor,
 			'id_user'		=> $id_user,
 			'stok_kelor'	=> $stok_kelor,
@@ -100,7 +99,7 @@ class Etalase extends CI_Controller {
 		);
 
 		$where			= array (
-			'id'		=> $id
+			'id_etalase'	=> $id_etalase
 		);
 
 		$this->Etalase_m->updateData($where, $data, 'etalase_produk');

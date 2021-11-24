@@ -39,7 +39,7 @@ ini etalase
 												<td><?php echo $row->nama_kebun ?></td>
 												<td><?php echo $row->jenis_kelor ?></td>
 												<td><?php echo $row->stok_kelor ?></td>
-												<td><?php echo $row->foto_kelor ?></td>
+												<td><img src="<?php echo base_url('gambar') ?>/<?php echo $row->foto_kelor ?>" width="100"></td>
 												<td>
 													<a href="<?php echo base_url('etalase/edit/' .$row->id_etalase) ?>" class="btn btn-sm btn-warning">Edit</a>
 													<a href="<?php echo base_url('etalase/delete/' .$row->id_etalase) ?>" class="btn btn-sm btn-danger">Hapus</a>

@@ -14,8 +14,8 @@ class Etalase_m extends CI_Model {
 
 	public function getKomoditas()
 	{
-		$query = $this->db->query("SELECT * FROM data_komoditas_kelor WHERE jenis_kelor = jenis_kelor");
-		return $query;
+		$query = $this->db->query("SELECT * FROM data_komoditas_kelor");
+		return $query->result();
 	}
 
 	public function inputData($data, $table)
