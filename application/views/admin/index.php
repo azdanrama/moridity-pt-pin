@@ -1,4 +1,4 @@
-<?php $this->load->view('admin/layouts/header_admin') ?>
+
 		<div class="content-body">
 			<!-- row -->
 			<div class="container-fluid">
@@ -57,7 +57,7 @@
 								<div class="card">
 									<div class="card-header d-sm-flex d-block pb-0 border-0">
 										<div class="mr-auto pr-3 mb-sm-0 mb-3">
-											<h4 class="text-black fs-20">Grafik Komoditas Kelor (General) </h4>
+											<h4 class="text-black fs-20">Grafik Komoditas Kelor General </h4>
 											<p class="fs-13 mb-0 text-black"></p>
 										</div>
 									</div>
@@ -77,4 +77,4 @@
 		</div>
 		</div>
 		</div>
-<?php $this->load->view('admin/layouts/footer_admin') ?>
+

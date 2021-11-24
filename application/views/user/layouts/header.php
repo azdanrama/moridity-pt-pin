@@ -105,6 +105,7 @@
                                                 <!-- <?php echo 'Selamat Datang , ' . $p->username; ?> -->
                                             </strong>
                                         </span>
+                                        <p class="fs-12 mb-0"><?php echo $this->session->userdata('nama') ?></p>
                                         
                                     </div>
                                 </a>

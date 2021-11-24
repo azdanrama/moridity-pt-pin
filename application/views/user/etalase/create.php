@@ -8,7 +8,6 @@
 						<div class="mr-auto pr-3">
 							<h4 class="text-black font-w700 fs-20">Tambah Etalase </h4><br>
 						</div>
-
 					</div>
 				</div>
 				<!-- <div class="col-xl-12"> -->
@@ -17,6 +16,7 @@
 
 						<form action="<?php echo base_url('etalase/create_data') ?>" method="post" enctype="multipart/form-data">
 							<div class="mb-3">
+								<input type="hidden" name="id_user" value="<?php echo $this->session->userdata('id') ?>">
 								<select name="nama_kebun" class="form-control">
 									<option value="#">Pilih jenis kelor</option>
 									<?php foreach ($data_komoditas_kelor as $kebun) : ?>
@@ -41,7 +41,7 @@
 								</div>
 
 								<div class="modal-footer d-block">
-								<a href="<?=base_url();?>/etalase/index" class="btn btn-warning float-start">Batal</a>
+								<button type="submit" class="btn btn-warning float-start">Batal</button>
 								<button type="submit" value="upload" class="btn btn-warning float-end">Simpan Data</button>
 							</div>
 						</form>

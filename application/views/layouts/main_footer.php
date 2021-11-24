@@ -4,7 +4,7 @@
 			<div class="col-lg-3 mr-auto col-sm-6 col-md-6">
 				<div class="widget footer-widget mb-5 mb-lg-0">
 					<img src="<?=base_url('assets');?>/images/user/logomoridity-full.png" alt="MoriDity" class="img-fluid">
-					<p class="mt-3">Sistem MoriDity adalah sistem yang dibuat untuk memberikan solusi atas permasalahan terkait database komoditas tanaman kelor.</p>
+					<p class="mt-3" align="justify">Sistem MoriDity adalah sistem yang dibuat untuk memberikan solusi atas permasalahan terkait database komoditas tanaman kelor.</p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-sm-6 col-md-6">
@@ -19,7 +19,7 @@
 			</div>
 			<div class="col-lg-2 col-sm-6 col-md-6">
 				<div class="widget footer-widget mb-5 mb-lg-0">
-					<h5 class="widget-title">Quick Links</h5>
+					<h5 class="widget-title">Site Map</h5>
 					<ul class="list-unstyled footer-links">
 						<li><a href="<?=base_url()?>Tentang">Tentang Kami</a></li>
 						<li><a href="<?=base_url()?>Kontak">Kontak</a></li>
@@ -32,7 +32,7 @@
 			<div class="col-lg-3 col-sm-6 col-md-6">
 				<div class="widget footer-widget mb-5 mb-lg-0">
 					<h5 class="widget-title">Berlangganan</h5>
-					<p>Jangan lewatkan untuk berlangganan feed baru kami, mohon isi formulir di bawah ini.</p>
+					<p align="justify">Jangan lewatkan untuk berlangganan feed baru kami, mohon isi formulir di bawah ini.</p>
 					 <form action="#" class="subs-form">
 					 	<input type="text" class="form-control" placeholder="Alamat Email">
 					 	<a href="<?=base_url()?>#" class="btn btn-main-2 btn-sm">Berlangganan</a>

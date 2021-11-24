@@ -7,7 +7,7 @@
 				<div class="col-xl-12">
 					<div class="card-header">
 						<div class="mr-auto pr-3">
-							<h4 class="text-black font-w700 fs-20">Data Komoditas Kelor </h4>
+							<h4 class="text-black font-w700 fs-20">Data Komoditas Kelor General </h4>
 						</div>
 					</div>
 				</div>
@@ -43,6 +43,7 @@
 											<td><?php echo $row->jenis_kelor ?></td>
 											<td><?php echo $row->tgl_panen ?></td>
 											<td><?php echo $row->jumlah_panen ?></td>
+											
 										</tr>
 									<?php endforeach ?>
 								</tbody>

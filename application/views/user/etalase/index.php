@@ -7,7 +7,7 @@ ini etalase
 				<div class="col-xl-12">
 					<div class="card-header">
 						<div class="mr-auto pr-3">
-							<h4 class="text-black font-w700 fs-20">Data Komoditas Kelor </h4><br>
+							<h4 class="text-black font-w700 fs-20">Etalase Produk </h4><br>
 						</div>
 
 					</div>
@@ -16,6 +16,7 @@ ini etalase
 				<div class="card">
 					<div class="card-body">
 
+						<a href="<?php echo base_url('etalase/create') ?>" class="btn btn-sm btn-success">Tambah</a>
 						<div id="table-data">
 							<table class="table table-borderless">
 								<thead>
@@ -31,22 +32,20 @@ ini etalase
 								<tbody>
 									<?php 
 										$no = 1;
-										foreach ($etalase as $row) :
-									?>
-
-									<tr>
-										<td><?php echo $no++ ?></td>
-										<td><?php echo $row->nama_kebun ?></td>
-										<td><?php echo $row->jenis_kelor ?></td>
-										<td><?php echo $row->stok_kelor ?></td>
-										<td><img src="<?php echo base_url('./gambar/' .$row->foto_kelor) ?>" width="100"></td>
-										<td>
-											<a href="<?php echo base_url('etalase/create') ?>" class="btn btn-sm btn-primary">Tambah</a>
-											<a href="<?php echo base_url('Etalase/edit/' .$row->id_etalase) ?>" class="btn btn-sm btn-warning">Edit</a>
-											<a href="<?php echo base_url('Etalase/delete/' .$row->id_etalase) ?>" class="btn btn-sm btn-danger">Hapus</a>
-										</td>
-									</tr>
-
+										foreach ($etalase as $row) : ?>
+										<?php if ( $row->id_user == $this->session->userdata('id') ) : ?>
+											<tr>
+												<td><?php echo $no++ ?></td>
+												<td><?php echo $row->nama_kebun ?></td>
+												<td><?php echo $row->jenis_kelor ?></td>
+												<td><?php echo $row->stok_kelor ?></td>
+												<td><?php echo $row->foto_kelor ?></td>
+												<td>
+													<a href="<?php echo base_url('etalase/edit/' .$row->id_etalase) ?>" class="btn btn-sm btn-warning">Edit</a>
+													<a href="<?php echo base_url('etalase/delete/' .$row->id_etalase) ?>" class="btn btn-sm btn-danger">Hapus</a>
+												</td>
+											</tr>
+										<?php endif ?>
 									<?php endforeach ?>
 								</tbody>
 							</table>

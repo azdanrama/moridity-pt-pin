@@ -8,7 +8,6 @@
 						<div class="mr-auto pr-3">
 							<h4 class="text-black font-w700 fs-20">Edit Etalase </h4><br>
 						</div>
-
 					</div>
 				</div>
 				<!-- <div class="col-xl-12"> -->
@@ -17,6 +16,7 @@
 
 					<?php foreach ($etalase as $row) : ?>
 						<form action="<?php echo base_url('etalase/update') ?>" method="post" enctype="multipart/form-data">
+							<input type="hidden" name="id_user" value="<?php echo $this->session->userdata('id') ?>">
 							<div class="mb-3">
 								<input type="hidden" name="id" value="<?php echo $row->id ?>">
 								<label for="id_datakelor">Jenis Kelor</label>
@@ -26,7 +26,7 @@
 									<?php endforeach ?>
 								</select><br>
 								<label class="form-label">Stok Kelor</label>
-								<input type="text" class="form-control" name="luas_kebun" value="<?php echo $row->stok_kelor ?>" />
+								<input type="text" class="form-control" name="stok_kelor" value="<?php echo $row->stok_kelor ?>" />
 								</div>
 								<div class="mb-3">
 								<label class="form-label">Upload komoditas kelor</label>

@@ -89,7 +89,7 @@
 																	<tbody>
 																		<?php 
 																			$no = 1;
-																			foreach ($data_komoditas_kelor_general as $row) :
+																			foreach ($user as $row) :
 																		?>
 
 																		<tr>

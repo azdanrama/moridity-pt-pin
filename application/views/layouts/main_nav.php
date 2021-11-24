@@ -3,7 +3,7 @@
     <div class="main-navigation main_menu " id="mainmenu-area">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="<?=base_url()?>main">
+                <a class="navbar-brand" href="<?=base_url()?>Main">
                     <img src="<?=base_url('assets');?>/images/user/logomoridity-full.png" alt="Moridity" class="img-fluid" width="200 px">
                 </a>
                 <!-- Toggler -->

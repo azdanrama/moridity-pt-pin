@@ -6,6 +6,7 @@ class Etalase extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model('Etalase_m');
+		$this->load->database();
 	}
 
 	public function index()
@@ -31,6 +32,7 @@ class Etalase extends CI_Controller {
 	public function create_data()
 	{
 		$id_datakelor	= $this->input->post('id_datakelor');
+		$id_user		= $this->input->post('id_user');
 		$stok_kelor		= $this->input->post('stok_kelor');
 		$foto_kelor		= $_FILES['foto_kelor'];
 		if ($foto_kelor = ''){} else {
@@ -47,6 +49,7 @@ class Etalase extends CI_Controller {
 
 		$data				= array (
 			'id_datakelor'	=> $id_datakelor,
+			'id_user'		=> $id_user,
 			'stok_kelor'	=> $stok_kelor,
 			'foto_kelor'	=> $foto_kelor
 		);
@@ -73,6 +76,7 @@ class Etalase extends CI_Controller {
 		$id				= $this->input->post('id');
 		$nama_produk	= $this->input->post('nama_produk');
 		$id_datakelor	= $this->input->post('id_datakelor');
+		$id_user		= $this->input->post('id_user');
 		$stok_kelor		= $this->input->post('stok_kelor');
 		$foto_kelor		= $_FILES['foto_kelor'];
 		if ($foto_kelor = ''){} else {
@@ -90,6 +94,7 @@ class Etalase extends CI_Controller {
 		$data			= array (
 			'nama_produk'	=> $nama_produk,
 			'id_datakelor'	=> $id_datakelor,
+			'id_user'		=> $id_user,
 			'stok_kelor'	=> $stok_kelor,
 			'foto_kelor'	=> $foto_kelor
 		);

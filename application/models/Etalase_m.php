@@ -4,9 +4,10 @@ class Etalase_m extends CI_Model {
 
 	public function getData()
 	{
-		$this->db->select('etalase_produk.*, data_komoditas_kelor.jenis_kelor, data_komoditas_kelor.nama_kebun');
+		$this->db->select('etalase_produk.*, data_komoditas_kelor.jenis_kelor, data_komoditas_kelor.nama_kebun, user.id');
 		$this->db->from('etalase_produk');
 		$this->db->join('data_komoditas_kelor', 'data_komoditas_kelor.id_datakelor = etalase_produk.id_datakelor');
+		$this->db->join('user', 'user.id = etalase_produk.id_user');
 		$query 	= $this->db->get();
 		return $query->result();
 	}

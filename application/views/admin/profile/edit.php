@@ -17,7 +17,7 @@
 
 					<?php foreach ($user as $row) { ?>
 
-					<form action="<?php echo base_url('User/updateData') ?>" method="post" enctype="multipart/form-data">
+					<form action="<?php echo base_url('Admin/updateprofileadmin') ?>" method="post" enctype="multipart/form-data">
 						<div class="mb-3">
 							<label class="form-label">Foto Profile</label>
 							<input type="file" class="form-control" name="avatar"/>
@@ -48,6 +48,7 @@
 							<input type="text" class="form-control" name="alamat" value="<?php echo $row->alamat ?>" />
 						</div>
 						<div class="mb-3">
+							<label class="form-label">Jenis kelamin</label>
 							<select name="jenis_kelamin" class="form-control">
 								<option value="Pria">Pria</option>
 								<option value="Wanita">Wanita</option>

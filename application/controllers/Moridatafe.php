@@ -14,7 +14,7 @@ class Moridatafe extends CI_Controller {
 			'title' => 'Tentang | MoriDity'
 		];
 
-		$data['data_komoditas_kelor_general'] = $this->Admin_moridata_m->getData();
+		$data['user'] = $this->Admin_moridata_m->getDataUser();
 
 		$this->load->view('layouts/top', $site);
 		$this->load->view('frontend/moridata', $data);

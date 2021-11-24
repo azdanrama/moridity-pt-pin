@@ -28,7 +28,7 @@
               <h6><?php echo $row->level ?></h6>
             </div>
             <div class="col-sm-2">
-              <a class="btn btn-warning" href="<?php echo base_url('User/editProfile/' .$row->id) ?>">Edit</a>
+              <a class="btn btn-warning" href="<?php echo base_url('Admin/editprofileadmin/' .$row->id) ?>">Edit</a>
               <!-- <img alt="image" width="30" src="http://localhost/newmoridity/assets/images/admin/edit.png" data-bs-toggle="modal" data-bs-target="#modalForm" alt=""> -->
 
             </div>
