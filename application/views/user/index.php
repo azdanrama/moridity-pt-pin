@@ -67,7 +67,6 @@
 										<div id="chart-container"></div>
 									</div>
 								</div>
-
 							</div>
 
 
