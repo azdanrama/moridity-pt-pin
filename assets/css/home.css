@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .hero-area {
   height: 650px;
   display: flex;
