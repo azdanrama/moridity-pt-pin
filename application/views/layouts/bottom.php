@@ -6,8 +6,7 @@
     <script src="<?= base_url('assets') ?>/js/custom.min.js"></script>
 	<script src="<?= base_url('assets') ?>/js/deznav-init.js"></script>
 	<script src="<?=base_url('assets')?>/js/back-to-top.js"></script>
-	
-    
+	<script src="<?=base_url('assets')?>/js/slider.js"></script>
 
     <!-- Vectormap -->
     <script src="<?= base_url('assets') ?>/vendor/jqvmap/js/jquery.vmap.min.js"></script>

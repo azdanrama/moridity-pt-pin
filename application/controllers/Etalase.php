@@ -21,7 +21,7 @@ class Etalase extends CI_Controller {
 
 	public function create()
 	{
-		$data['data_komoditas_kelor']	= $this->Etalase_m->getKomoditas()->result();
+		$data['data_komoditas_kelor']	= $this->Etalase_m->getKomoditas();
 		$data['user']					= $this->Etalase_m->getAvatar()->result();
 		$this->load->view('user/layouts/header', $data);
 		$this->load->view('user/layouts/sidebar');

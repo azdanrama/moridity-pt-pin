@@ -1,32 +1,26 @@
 <?php $this->load->view('layouts/main_nav') ?>
 
-<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.1.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
-<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.1.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+<div class="wrapper">
+    <div class="prev-btn"><i class="fas fa-chevron-left"></i></div>
 
-<!-- Carousel -->
-<section>
-<div class="swiffy-slider">
-    <ul class="slider-container">
-        <li>
-		<img src="<?=base_url('assets');?>/images/user/banner/Moridity_slider.jpg" class="img-fluid" alt="Image" style="max-width: 100%;height: auto;"></li>
-        <li>
-		<img src="<?=base_url('assets');?>/images/user/banner/Moridity_slider2.jpg" class="img-fluid" alt="Image" style="max-width: 100%;height: auto;"></li>
-        <li>
-		<img src="<?=base_url('assets');?>/images/user/banner/Moridity_slider3.jpg" class="img-fluid" alt="Image" style="max-width: 100%;height: auto;"></li>
-    </ul>
+    	<div class="slides-container">
+    		<div class="slide-image">
+    			<img src="<?=base_url('assets');?>/images/user/banner/slider_1.jpg" alt="" />
+    		</div>
 
-    <button type="button" class="slider-nav"></button>
-    <button type="button" class="slider-nav slider-nav-next"></button>
+			<div class="slide-image">
+				<img src="<?=base_url('assets');?>/images/user/banner/slider_2.jpg" alt="" />
+			</div>
 
-    <div class="slider-indicators">
-        <button class="active"></button>
-        <button></button>
-        <button></button>
-    </div>
+			<div class="slide-image">
+				<img src="<?=base_url('assets');?>/images/user/banner/slider_3.jpg" alt="" />
+			</div>
+    	</div>
+
+    <div class="next-btn"><i class="fas fa-chevron-right"></i></div>
 </div>
-</section>
-<!-- end -->
 
+<div class="navigation-dots"></div>
 
 <section class="process-wrap section">
 	<div class="container">
@@ -35,6 +29,7 @@
 				<div class="heading text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
 					<!-- <span class="text-color">Our Experience</span> -->
 					<h2>Fitur Utama MoriDity</h2>
+					<p>Fitur yang dapat membantu menyelesaikan permasalahan<br>komoditas kelor di Indonesia</p>
 				</div>
 			</div>
 		</div>
@@ -72,9 +67,10 @@
 <section class="maps" id="maps">
 		<div class="content-body">
             <div class="container-fluid">
-				<div class="heading text-center">
+				<div class="heading text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
 					<!-- <span class="text-color">Our Experience</span> -->
 					<h2>Peta Persebaran Petani Kelor</h2>
+					<p>Lokasi kebun komoditas kelor yang dikelola petani di Indonesia</p>
 				</div>
                 <!-- row -->
                 <!-- Vectormap -->
@@ -134,7 +130,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                    <div class="heading text-center">
+                    <div class="heading text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
                         <h2>MoriDity Store</h2>
                         <p>Lihat dan berbelanja langsung dengan petani-petani kelor di Indonesia</p>
                     </div>
@@ -149,7 +145,7 @@
                           <div class="why-text">
                             <h3><?php echo $row->nama_kebun ?></h3>
                             <h6>Stok: <?php echo $row->stok_kelor ?></h6>
-							<a href="<?=base_url()?>#" class="btn btn-main-4">Pesan</a>
+							<a href="https://api.whatsapp.com/send?phone=6285230206133&text=Halo,%20saya%20ingin%20bertanya%20mengenai%20%20kelor%20yang%20Anda%20kelola%20" target="_blank" class="btn btn-main-4">Pesan</a>
                           </div>
                         </div>
                       </div>	
