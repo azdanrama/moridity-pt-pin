@@ -154,12 +154,13 @@ class Moridata extends CI_Controller {
         $this->load->library('pdf');
 		
         // filename dari pdf ketika didownload
-        $file_pdf = 'Laporan Data Komoditas Kelor';
+        $file_pdf = 'Laporan Data Panen Komoditas Kelor';
         // setting paper
         $paper = 'A4';
         //orientasi paper potrait / landscape
         $orientation = "portrait";
-		$data['mori']	= $this->Moridata_m->getPDF()->result();
+		$data['filterData']			= $this->Moridata_m->filterData();
+		$data['mori']				= $this->Moridata_m->getPDF()->result();
 		$html			= $this->load->view('user/moridata/mori_pdf', $data, true);
 		$this->pdf->generate($html, $file_pdf, $paper, $orientation);
 	}

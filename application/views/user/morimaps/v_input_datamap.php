@@ -68,8 +68,11 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
 
-			
+
 
 <script>
 	var curLocation = [0, 0];
@@ -77,7 +80,7 @@
 		curLocation = [-2.5489, 118.0149];
 	}
 
-	var mymap = L.map('mapid').setView([-2.5489, 118.0149], 5);
+	var mymap = L.map('mapid').setView([-2.5489, 118.0149], 4);
 	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
 			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +

@@ -18,19 +18,23 @@
 							<div class="mb-3">
 								<input type="hidden" name="id_user" value="<?php echo $this->session->userdata('id') ?>">
 								<label class="form-label">Nama Kebun</label>
-								<input type="text" class="form-control" id="nama_petani" name="nama_kebun" placeholder="Nama kebun" />
+								<input type="text" class="form-control" id="nama_petani" name="nama_kebun" placeholder="Nama Kebun" />
 								</div>
 								<div class="mb-3">
 								<label class="form-label">Jenis Kelor </label>
-								<input type="text" class="form-control" id="email" name="jenis_kelor" placeholder="jenenis kelor" />
+									<select name="jenis_kelor" id="email" class="form-control" placeholder="Jenis Kelor">
+										<option value="Kelor Merah">Kelor Merah</option>
+										<option value="Kelor Putih">Kelor Putih</option>
+									</select>
+								<!-- <input type="text" class="form-control" id="email" name="jenis_kelor" placeholder="jenenis kelor" /> -->
 								</div>
 								<div class="mb-3">
 								<label class="form-label">Tanggal Panen </label>
-								<input type="date" class="form-control" id="username" name="tgl_panen" placeholder="tanggal panen " />
+								<input type="date" class="form-control" id="username" name="tgl_panen" placeholder="Tanggal Panen" />
 								</div>
 								<div class="mb-3">
 								<label class="form-label">Jumlah Panen</label>
-								<input type="text" class="form-control" name="jumlah_panen" placeholder="jumlah panen" />
+								<input type="text" class="form-control" name="jumlah_panen" placeholder="Jumlah Panen" />
 								</div>
 								</div>
 

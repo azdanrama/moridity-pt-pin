@@ -64,6 +64,8 @@
 			)
 			</script>
 
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+
 			<!-- All init script -->
 			<script src="<?=base_url('assets')?>/js/plugins-init/jqvmap-init.js"></script>
 			

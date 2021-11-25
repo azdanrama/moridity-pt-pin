@@ -13,8 +13,8 @@
     array_push($d,array("label"=>$rcrd['tgl_panen'], "value"=>$rcrd['jumlah_panen']));
   }
 
-  $c = array("caption"=>"Grafik Komoditas Kelor",
-              "subcaption"=>"Kebun Kelor Sumber Jaya",
+  $c = array("caption"=>"Grafik Panen Komoditas Kelor",
+              "subcaption"=>"MoriDity",
               "xAxisName"=>"Tanggal Panen",
               "yAxisName"=>"Jumlah Panen (kg)",
               "numbersuffix"=> " kg",

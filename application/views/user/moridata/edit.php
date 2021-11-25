@@ -24,7 +24,10 @@
 									</div>
 									<div class="mb-3">
 									<label class="form-label">Jenis Kelor </label>
-									<input type="text" class="form-control" name="jenis_kelor" value="<?php echo $row->jenis_kelor ?>" />
+									<select name="jenis_kelor" id="email" class="form-control" placeholder="Jenis Kelor" value="<?php echo $row->jenis_kelor ?>">
+										<option value="Kelor Merah">Kelor Merah</option>
+										<option value="Kelor Putih">Kelor Putih</option>
+									</select>
 									</div>
 									<div class="mb-3">
 									<label class="form-label">Tanggal Panen </label>

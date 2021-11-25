@@ -30,7 +30,7 @@
                 <div class="contact-info">
                     <i class="ti-email"></i>
                     <h4>E-mail</h4>
-                    <p>MoridityDeveloper@gmail.com</p>
+                    <p>moridity30@gmail.com</p>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-4">
@@ -44,7 +44,7 @@
                 <div class="contact-info">
                     <i class="ti-location-pin"></i>
                     <h4>Alamat</h4>
-                    <p>Jakarta Timur, Ibukota Jakarta Kota</p>
+                    <p>Graha Mobilkom, Jl. Raden Saleh Raya No.35 Kota Jakarta Pusat 10330</p>
                 </div>
             </div>
         </div>
