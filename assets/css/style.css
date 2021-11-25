@@ -458,6 +458,14 @@ a:hover {
   border-color: transparent;
 }
 
+
+li .navbar-nav .nav-link .nav-item a.active{
+   font-weight: bold;
+   background-color: #009800; 
+  }
+li {display:inline-block;padding:5px 10px;}
+a {color:#000;text-decoration:none;}
+
 /*-------------------
   DROPDOWN MENU
 ----------------------*/

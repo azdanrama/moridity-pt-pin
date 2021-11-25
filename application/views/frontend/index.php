@@ -65,6 +65,7 @@
 </br>
 
 <section class="maps" id="maps">
+<!-- <div id="mapid" style="height: 500px;"></div> -->
 		<div class="content-body">
             <div class="container-fluid">
 				<div class="heading text-center" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">

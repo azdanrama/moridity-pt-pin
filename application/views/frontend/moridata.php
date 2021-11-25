@@ -66,7 +66,7 @@
                     <div class="container-fluid px-4">
                         <div class="card mb-4">
                             <div class="card-body">
-                                Data dibawah ini merupakan laporan Data Kelor dalam beberapa tahun. Download Data di bawah ini.
+                                Data dibawah ini merupakan laporan Data Kelor.
                                 <!-- <a target="_blank" href="https://datatables.net/">official DataTables documentation</a> -->
                             </div>
                         </div>

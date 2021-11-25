@@ -14,29 +14,29 @@
                 <!-- Collapse -->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <!-- Links -->
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto metismenu">
                     	 <li class="nav-item">
                             <a href="<?=base_url()?>main" class="nav-link js-scroll-trigger">
                                 Beranda
                             </a>
                         </li>
 
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a href="<?=base_url()?>tentang" class="nav-link js-scroll-trigger">
                                 Tentang
                             </a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a href="<?=base_url()?>kontak" class="nav-link">
                                 Kontak
                             </a>
                         </li>
                          <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="<?=base_url()?>#" id="navbar3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Fitur
+                                Fitur   
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbar3">
-                                 <a class="dropdown-item " href="<?=base_url()?>#maps">
+                                 <a class="dropdown-item" href="<?=base_url()?>#maps">
                                     MoriMap
                                 </a>
                                 <a class="dropdown-item " href="<?=base_url()?>moridatafe">

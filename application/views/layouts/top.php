@@ -46,14 +46,6 @@
 
 			<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-			<!-- <script src="<?=base_url('assets')?>/js/slider/jquery.superslides.min.js"></script>
-			<script src="<?=base_url('assets')?>/js/images-loaded.min.js"></script>
-			<script src="<?=base_url('assets')?>/js/slider/legacy.js"></script>
-			<script src="<?=base_url('assets')?>/js/slider/popper.min.js"></script>
-			<script src="<?=base_url('assets')?>/js/slider/custom.js"></script>
-			<script src="<?=base_url('assets')?>/js/slider/baguetteBox.js"></script>
-			<script src="<?=base_url('assets')?>/js/slider/isotope.js"></script> -->
-
 			<script type="text/javascript" src="<?php echo base_url('assets/vendor/pustaka_FSC/js/fusioncharts.js') ?>"></script>
 			<script type="text/javascript" src="<?php echo base_url('pustaka_FSC/js/themes/fusioncharts.theme.zune.js') ?>"></script>
 			<script type="text/javascript">
@@ -72,10 +64,13 @@
 			)
 			</script>
 
+<<<<<<< HEAD
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
 
 
 
+=======
+>>>>>>> 3f131aac45a43deb9eeffc7a14a6ddb07e4760b7
 			<!-- All init script -->
 			<script src="<?=base_url('assets')?>/js/plugins-init/jqvmap-init.js"></script>
 			
