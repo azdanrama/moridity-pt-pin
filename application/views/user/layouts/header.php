@@ -21,6 +21,7 @@
     <script type="text/javascript" src="<?php echo base_url('assets/vendor/pustaka_FSC/js/fusioncharts.js') ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('pustaka_FSC/js/themes/fusioncharts.theme.zune.js') ?>"></script>
     <script type="text/javascript">
+        
      FusionCharts.ready( function(){
 	   var G1 = new FusionCharts({
 	    "type": "column3d",
