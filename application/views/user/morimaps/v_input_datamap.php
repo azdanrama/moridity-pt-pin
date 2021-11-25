@@ -1,70 +1,28 @@
+
+
+
 <div class="content-body">
-	<div class="row">
-    	<div class="col-6">
-			<div class="panel panel-primary">
-						<div class="panel-heading">
-							Peta Persebaran Petani Kelor di Indonesia
+	<!-- row -->
+	<div class="container-fluid">
+		<div class="col-xl-12 col-xxl-12">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="card-header">
+						<div class="mr-auto pr-3">
+							<h4 class="text-black font-w700 fs-20">Peta Persebaran Petani Kelor</h4><br>
 						</div>
-						<div class="panel-body">
-
-							<div id="mapid" style="height: 500px; width: 500px;"></div>
-    		<div class="col-6">
-				<div class="col-sm-5">
-		<div class="panel panel-primary">
-			<div class="panel-heading">
-				Tambah Lokasi
-			</div>
-			<div class="panel-body">
-				<?php
-				//notifikasi gagal upload Gambar
-				if (isset($error_upload)) {
-					echo '<div class="alert alert-danger alert-dismissable">
-				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>' . $error_upload . '</div>';
-				}
-				//validasi data tidak boleh kosong
-				echo validation_errors('<div class="alert alert-danger alert-dismissable">
-				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>', '</div>');
-
-				//notifikasi pesan data berhasil disimpanasi
-				if ($this->session->flashdata('pesan')) {
-					echo '<div class="alert alert-success alert-dismissable">
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>';
-					echo $this->session->flashdata('pesan');
-					echo '</div>';
-				}
-
-				echo form_open_multipart('Morimaps_user/input');
-				?>
-
-				<div class="form-group">
-					<label>Nama Kebun</label>
-					<input name="nama_kebun" placeholder="Nama Kebun" value="<?= set_value('nama_kebun') ?>" class="form-control" />
+					</div>
 				</div>
+				<div class="card">
+					<div class="card-body">
+					<div class="row">
+    					<div class="col-7">
+							<div class="panel panel-primary">
+								<div class="panel-body">
 
-				<div class="form-group">
-					<label>Alamat</label>
-					<input name="alamat" placeholder="Alamat" value="<?= set_value('alamat') ?>" class="form-control" />
-				</div>
-
-				<div class="form-group">
-					<label>Latitude</label>
-					<input id="Latitude" name="latitude" placeholder="Latitude" value="<?= set_value('latitude') ?>" class="form-control" readonly />
-				</div>
-
-				<div class="form-group">
-					<label>Longitude</label>
-					<input id="Longitude" name="longitude" placeholder="Longitude" value="<?= set_value('longitude') ?>" class="form-control" readonly />
-				</div>
-
-				<div class="form-group">
-					<label></label>
-					<button type="submit" class="btn btn-sm btn-primary">Simpan</button>
-					<button type="reset" class="btn btn-sm btn-success">Reset</button>
-				</div>
-
-				<?php echo form_close(); ?>
-			</div>
-		</div>
+								<div id="mapid" style="height: 500px; width: 500px;"></div>
+    								<div class="col-12">
+										<div class="col-sm-5">
 	</div>
 </div>
 	
@@ -73,70 +31,48 @@
 	</div>
 </div>
 
-	<div class="col-sm-5">
-		<div class="panel panel-primary">
-			<div class="panel-heading">
-				Tambah Lokasi
+						<div class="col-sm-5">
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									<center><h3>Tambah Lokasi</h3></center><br />
+								</div>
+								<div class="panel-body">
+
+									<div class="form-group">
+										<label>Nama Kebun</label>
+										<input name="nama_kebun" placeholder="Nama Kebun" value="<?= set_value('nama_kebun') ?>" class="form-control" required/>
+									</div>
+
+									<div class="form-group">
+										<label>Alamat</label>
+										<input name="alamat" placeholder="Alamat" value="<?= set_value('alamat') ?>" class="form-control" required/>
+									</div>
+
+									<div class="form-group">
+										<label>Latitude</label>
+										<input id="latitude" name="latitude" placeholder="Latitude" value="<?= set_value('latitude') ?>" class="form-control" required/>
+									</div>
+
+									<div class="form-group">
+										<label>Longitude</label>
+										<input id="longitude" name="longitude" placeholder="Longitude" value="<?= set_value('longitude') ?>" class="form-control" required />
+									</div>
+
+									<div class="form-group">
+										<label></label>
+										<button type="submit" class="btn btn-sm btn-primary">Simpan</button>
+										<button type="reset" class="btn btn-sm btn-success">Reset</button>
+									</div>
+
+									<?php echo form_close(); ?>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="panel-body">
-				<?php
-				//notifikasi gagal upload Gambar
-				if (isset($error_upload)) {
-					echo '<div class="alert alert-danger alert-dismissable">
-				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>' . $error_upload . '</div>';
-				}
-				//validasi data tidak boleh kosong
-				echo validation_errors('<div class="alert alert-danger alert-dismissable">
-				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>', '</div>');
 
-				//notifikasi pesan data berhasil disimpanasi
-				if ($this->session->flashdata('pesan')) {
-					echo '<div class="alert alert-success alert-dismissable">
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>';
-					echo $this->session->flashdata('pesan');
-					echo '</div>';
-				}
-
-				echo form_open_multipart('Morimaps_user/input');
-				?>
-
-				<div class="form-group">
-					<label>Nama Kebun</label>
-					<input name="nama_kebun" placeholder="Nama Kebun" value="<?= set_value('nama_kebun') ?>" class="form-control" />
-				</div>
-
-				<div class="form-group">
-					<label>Alamat</label>
-					<input name="alamat" placeholder="Alamat" value="<?= set_value('alamat') ?>" class="form-control" />
-				</div>
-
-				<div class="form-group">
-					<label>Latitude</label>
-					<input id="latitude" name="latitude" placeholder="Latitude" value="<?= set_value('latitude') ?>" class="form-control" readonly />
-				</div>
-
-				<div class="form-group">
-					<label>Longitude</label>
-					<input id="longitude" name="longitude" placeholder="Longitude" value="<?= set_value('longitude') ?>" class="form-control" readonly />
-				</div>
-
-				<div class="form-group">
-					<label></label>
-					<button type="submit" class="btn btn-sm btn-primary">Simpan</button>
-					<button type="reset" class="btn btn-sm btn-success">Reset</button>
-				</div>
-
-				<?php echo form_close(); ?>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
+			
 
 <script>
 	var curLocation = [0, 0];
@@ -175,3 +111,5 @@
 	});
 	mymap.addLayer(marker);
 </script>
+
+
