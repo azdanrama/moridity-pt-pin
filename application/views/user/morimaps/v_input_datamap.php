@@ -71,66 +71,8 @@
 					</div>
 				</div>
 			</div>
-<<<<<<< HEAD
-			<div class="panel-body">
-				<?php
-				//notifikasi gagal upload Gambar
-				if (isset($error_upload)) {
-					echo '<div class="alert alert-danger alert-dismissable">
-				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>' . $error_upload . '</div>';
-				}
-				//validasi data tidak boleh kosong
-				echo validation_errors('<div class="alert alert-danger alert-dismissable">
-				<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>', '</div>');
-
-				//notifikasi pesan data berhasil disimpanasi
-				if ($this->session->flashdata('pesan')) {
-					echo '<div class="alert alert-success alert-dismissable">
-					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>';
-					echo $this->session->flashdata('pesan');
-					echo '</div>';
-				}
-
-				echo form_open_multipart('Morimaps_user/input');
-				?>
-
-				<div class="form-group">
-					<label>Nama Kebun</label>
-					<input name="nama_kebun" placeholder="Nama Kebun" value="<?= set_value('nama_kebun') ?>" class="form-control" />
-				</div>
-
-				<div class="form-group">
-					<label>Alamat</label>
-					<input name="alamat" placeholder="Alamat" value="<?= set_value('alamat') ?>" class="form-control" />
-				</div>
-
-				<div class="form-group">
-					<label>Latitude</label>
-					<input id="latitude" name="latitude" placeholder="Latitude" value="<?= set_value('latitude') ?>" class="form-control" readonly />
-				</div>
-
-				<div class="form-group">
-					<label>Longitude</label>
-					<input id="longitude" name="longitude" placeholder="Longitude" value="<?= set_value('longitude') ?>" class="form-control" readonly />
-				</div>
-
-				<div class="form-group">
-					<label></label>
-					<button type="submit" class="btn btn-sm btn-primary">Simpan</button>
-					<button type="reset" class="btn btn-sm btn-success">Reset</button>
-				</div>
-
-				<?php echo form_close(); ?>
-			</div>
-		</div>
-	</div>
-</div>
 
 
-=======
-
-			
->>>>>>> 3f131aac45a43deb9eeffc7a14a6ddb07e4760b7
 
 <script>
 	var curLocation = [0, 0];
@@ -138,7 +80,7 @@
 		curLocation = [-2.5489, 118.0149];
 	}
 
-	var mymap = L.map('mapid').setView([-2.5489, 118.0149], 5);
+	var mymap = L.map('mapid').setView([-2.5489, 118.0149], 4);
 	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
 			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
