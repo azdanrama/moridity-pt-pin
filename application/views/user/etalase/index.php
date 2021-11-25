@@ -1,4 +1,4 @@
-ini etalase
+
 <div class="content-body">
 	<!-- row -->
 	<div class="container-fluid">
