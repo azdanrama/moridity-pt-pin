@@ -134,10 +134,6 @@
 
 
 
-
-
-
-
 <script>
 	var curLocation = [0, 0];
 	if (curLocation[0] == 0 && curLocation[1] == 0) {

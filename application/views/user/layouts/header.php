@@ -21,6 +21,19 @@
     <script type="text/javascript" src="<?php echo base_url('assets/vendor/pustaka_FSC/js/fusioncharts.js') ?>"></script>
     <script type="text/javascript" src="<?php echo base_url('pustaka_FSC/js/themes/fusioncharts.theme.zune.js') ?>"></script>
     <script type="text/javascript">
+
+    <!-- JQUERY SCRIPTS -->
+        <script src="<?= base_url() ?>template/assets/js/jquery-1.10.2.js"></script>
+        <!-- BOOTSTRAP SCRIPTS -->
+        <script src="<?= base_url() ?>template/assets/js/bootstrap.min.js"></script>
+        <!-- METISMENU SCRIPTS -->
+        <script src="<?= base_url() ?>template/assets/js/jquery.metisMenu.js"></script>
+        <!-- CUSTOM SCRIPTS -->
+        <script src="<?= base_url() ?>template/assets/js/custom.js"></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
         
      FusionCharts.ready( function(){
 	   var G1 = new FusionCharts({
